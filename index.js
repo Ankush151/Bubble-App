@@ -1,7 +1,7 @@
 
   var c = document.getElementById("canvas1");
   var ctx = c.getContext("2d");
-  ctx.fillStyle = "blue";
+  ctx.fillStyle = "yellow";
   ctx.beginPath();
   ctx.arc(95, 50, 40, 0, 2 * Math.PI);
   ctx.fill();
@@ -116,7 +116,7 @@
 
     x += 2;
     ctx1.fillStyle = "rgba(34,45,23,0.4)";
-    ctx1.fillRect(0, 0, 1300, 1000);
+    // ctx1.fillRect(0, 0, 1300, 1000);
     requestAnimationFrame(draw);
     //ctx.clearRect(0,0,can.width,can.height);
   }
@@ -124,7 +124,7 @@
   function onReset() {
     var c = document.getElementById("canvas1");
     var ctx = c.getContext("2d");
-    ctx.fillStyle = "blue";
+    ctx.fillStyle = "yellow";
     ctx.fill();
 
     var c = document.getElementById("canvas2");
