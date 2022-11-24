@@ -40,7 +40,7 @@ body {
     cursor: pointer;
   }
   button {
-    /* position: absolute; */
+    position: absolute;
     bottom: 20px;
     cursor: pointer;
     margin-right: 10%;
@@ -48,5 +48,4 @@ body {
     border-radius: 5px;
     color: red;
     right: 300px;
-    position: fixed;
   }
